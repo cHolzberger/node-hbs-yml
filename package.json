@@ -1,0 +1,12 @@
+{
+  "name": "hbs-yml",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "json-schema-deref": "^0.3.5",
+    "lodash": "^4.17.4",
+    "yaml-front-matter": "^3.4.0"
+  }
+}
