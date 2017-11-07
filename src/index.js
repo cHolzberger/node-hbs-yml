@@ -35,7 +35,8 @@ function renderVars(template) {
       template.vars = fullSchema;
       for (var key in template.vars) {
         if (_.isString(template.vars[key])) {
-          template.vars[key] = Handlebars.compile(template.vars[key])(template.vars);
+          // skip for now, need a better solution
+          //template.vars[key] = Handlebars.compile(template.vars[key])(template.vars);
         }
       }
 
